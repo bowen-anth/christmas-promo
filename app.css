@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #061123;
-    height: 100vh;
+    background-color: #040e1d;
+    height: 100dvh;
     display: grid;
     justify-content: center;
     align-content: center;
   }
-  
+  /* From Calleb: https://codepen.io/Calleb/pen/dyVRvyW */
   .snow {
     width: 800px;
     height: 600px;
@@ -57,5 +57,9 @@ body {
     font-size: 1em;
     color: white;
     background-color: rgb(246, 16, 123);
+    transition: all .2s ease-in-out;
   }
   
+  .get-gift-button:hover {
+    scale: 1.05;
+  }
